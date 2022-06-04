@@ -37,6 +37,8 @@ return "hello world!";
 * RS School Course «JavaScript/Front-end. Stage 0»
 * CodeBasic courses
 
+----------------------------
+
 #### Launguages:
 * **Englsh:** A2
 * **Russian:** Native
