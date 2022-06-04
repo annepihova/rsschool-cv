@@ -1,6 +1,6 @@
 # Hanna Yepihova
 
-===
+----------------------------
 
 ### Contacts:
 * **Phone:** +375 25 797 48 57
@@ -9,12 +9,12 @@
 * **Telegram:** @annikep
 * **GitHub:** annepihova
 
-====
+----------------------------
 
 ### About me:
 Studying front-end, striving for better results, to take rsschool courses
 
-===
+----------------------------
 
 ### Skills:
 * HTML
@@ -23,7 +23,7 @@ Studying front-end, striving for better results, to take rsschool courses
 * JavaScript(bacic)
 * VS Code
 
-===
+----------------------------
 
 ### Code explame:
 ```
@@ -31,7 +31,8 @@ function greet() {
 return "hello world!";
 }
 ```
-===
+----------------------------
+
 ### Courses:
 * RS School Course «JavaScript/Front-end. Stage 0»
 * CodeBasic courses
