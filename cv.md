@@ -25,7 +25,7 @@ return "hello world!";
 ```
 ===
 ### Courses:
-* RS Schools Course «JavaScript/Front-end. Stage 0»
+* RS School Course «JavaScript/Front-end. Stage 0»
 * CodeBasic courses
 
 #### Launguages:
