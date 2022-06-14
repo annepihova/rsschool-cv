@@ -16,14 +16,17 @@ body {
     padding: 0;
     display: flex;
   flex-direction: column;
-  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  height: 1000px;
 }
+
 
 .footer{
     background-color: var(--main-red);
     height: 80px;
+    position: relative;
+    bottom: 870px;
 }
 
 .container {
@@ -69,15 +72,11 @@ body {
   font-weight: 600;
   margin: 0;
   }
+  
 
-.profile{
- position: relative;
- bottom: 130px;
-}
 
 .phone-icon{
 width: 30px;
-color: var(--main-red);
 }
 
 ul{
@@ -87,6 +86,8 @@ ul{
 main{
 margin-left: 150px;
 max-width: 490px;
+position: relative;
+top: 80px;
 }
 
 .github-icon{
@@ -122,7 +123,7 @@ padding: 10px 60px;
 .aside-container{
     float: right;
     position: relative;
-    bottom: 180px;
+   top: -950px;
     right: 190px;
 }
 
@@ -222,4 +223,100 @@ list-style: inside;
 
 .textl{
     font-weight: 500;
+}
+
+.phone-icon, .discord-icon, .telegram-icon, .e-mail-icon{
+    width: 30px;
+    vertical-align: middle;
+    }
+
+.number{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5; 
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.contats-item{
+    margin-bottom: 25px;
+}
+
+.contacts{
+    position: relative;
+    right: 40px;
+    top: 50px;
+}
+
+.name-summary{
+    background-color: var(--main-red);
+    letter-spacing: 5px;
+    font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  width: 240px;
+  position: relative;
+top: 85px;
+padding-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.about{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+    top: 70px;  
+}
+
+.name-code{
+    background-color: var(--main-red);
+    letter-spacing: 5px;
+    font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  width: 240px;
+  position: relative;
+top: 85px;
+padding-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.js{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    position: relative;
+    top: 75px;
+    right: 110px;
+}
+
+.name-projects{
+    background-color: var(--main-red);
+    letter-spacing: 5px;
+    font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  width: 240px;
+  position: relative;
+top: 85px;
+padding-left: 10px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.projects-link{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    position: relative;
+    top: 75px;
+    color: black;
+    padding: 20px 20px 20px 0;
 }
