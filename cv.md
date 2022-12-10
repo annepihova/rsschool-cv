@@ -12,7 +12,7 @@
 --------------------------------------
 
 #### **About myself:**
-Started studying front-end, striving for better results, trying to take rsschool courses
+Studying front-end, striving for better results, trying to take rsschool courses
 
 ------------------------------------
 
