@@ -1,5 +1,87 @@
-  .relative-position {
-    position: relative;
-    top: 100px;
-    right: 50px;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main{
+  border: 1px solid red;
+  height: auto;
+  display: inline-block;
+  padding: 5px;
+}
+
+footer{
+  border: 1px solid rgb(0, 76, 255);
+  height: 100px;
+  padding: 10px;
+}
+
+header{
+  border: 1px solid rgb(30, 255, 0);
+  height: 100px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 0;
+}
+
+.column {
+  float: left;
+  border: 1px solid rgb(255, 0, 174);
+}
+
+.left {
+  width: 40%;
+  height: 300px;
+  margin-right: 5px;
+}
+
+.right {
+  width: 59%;
+  height: 100px;
+  margin-left: 5px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+a:after {
+	display: block;
+	position: relative;
+  left: 15px;
+  bottom: 10px;
+	width: 0;
+	height: 1px;
+	background-color: black;
+	content: "";
+	transition: width 0.4s ease-out;
+}
+
+a:hover:after,
+a:focus:after {
+	width: 85%;
+}
