@@ -9,9 +9,11 @@ html {
 body{
   font-family: 'Bebas Neue', cursive;
   font-family: 'PT Sans', sans-serif;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 main{
@@ -22,19 +24,20 @@ main{
 }
 
 footer{
-  border: 1px solid rgb(0, 76, 255);
-  height: 100px;
+  background-color: black;
+  height: auto;
   padding: 10px;
+  color: white;
 }
 
 header{
-  border: 1px solid rgb(30, 255, 0);
-  height: 100px;
+  background-color: black;
+  max-width: 1280px;
   padding: 10px;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 0;
 }
 
@@ -57,31 +60,54 @@ header{
 
 .nav-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
+  margin-top: 20px;
+  padding: 0;
 }
 
 .nav-link {
-  padding: 0 20px;
-  line-height: 50px;
+  line-height: 10px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-a:after {
+li>a:after {
 	display: block;
-	position: relative;
-  left: 15px;
-  bottom: 10px;
 	width: 0;
 	height: 1px;
-	background-color: black;
+	background-color: white;
 	content: "";
 	transition: width 0.4s ease-out;
 }
 
-a:hover:after,
-a:focus:after {
-	width: 85%;
+li>a:hover:after,
+li>a:focus:after {
+	width: 100%;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 5px 20px;
+}
+
+.gh-logo{
+  margin-right: 5px;
+}
+
+.gh{
+display: inline-flex;
+color: white;
+text-decoration: none;
+}
+
+.ght{
+  margin-left: 5px;
+}
+
+.rss{
+  padding: 5px 5px 0px;
+  background-color: white;
 }
