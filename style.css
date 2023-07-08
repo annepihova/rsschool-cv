@@ -165,6 +165,7 @@ a {
 .information-block__name_dark{
   color: rgb(228, 227, 227);
   border-color: rgba(52, 52, 52, 0.959);
+  font-size: 1rem;
 }
 
 .code_dark{
