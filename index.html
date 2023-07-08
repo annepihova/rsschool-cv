@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="assets/images/icon-1.ico" />
-    <link rel="stylesheet" href="style.css" />
+      rel="stylesheet">
+    <link rel="icon" href="assets/images/icon-1.ico">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
   </head>
   <body class="body">
@@ -44,12 +43,11 @@
         </nav>
       </header>
       <main class="main">
-        <section class="main-block">
+        <section class="main-section">
         <img
           class="main__img"
           alt="my photo"
-          src="./assets/images/me.jpg"
-        />
+          src="./assets/images/me.jpg">
         <div class="main__information">
             <h1 class="main__name">HANNA <br><span class="main__surname">YEPIKHAVA</span></h1>
             <h3 class="main__profession">Frontend Developer</h3>
@@ -61,17 +59,94 @@
             <span class="sqare"></span>
         </div>
     </section>
+    <section class="information-section">
+      <div class="information-block information-block_dark">
+        <h4 class="information-block__name information-block__name_dark">Code  explame</h4>
+        <div class="information-block__main">
+<pre><code class="code_dark">function shuffle(arr) {
+  const items = arr.splice(0);
+              
+  while (items.length) {
+    const index = random(0, items.length);
+    arr.push(items.splice(index, 1)[0]);
+  }
+
+  return arr;
+}
+</code></pre>
+        </div>
+        <span class="sqare sqare_dark"></span>
+      </div>
+      <div class="information-block">
+        <h4 class="information-block__name">Contact</h4>
+        <ul class="information-block__main">
+          <li class="information-block__main__item">tel: +375 25 797-48-57</li>
+          <li class="information-block__main__item">email: anakempri@gmail.com</li>
+          <li class="information-block__main__item">telegram: annikep</li>
+          <li class="information-block__main__item">discord: annikep</li>
+          <li class="information-block__main__item">location: Minsk, Belarus</li>
+        </ul>
+      </div>
+      <div class="information-block">
+        <h4 class="information-block__name">Projects</h4>
+        <ul class="information-block__main">
+          <li class="information-block__main__item"><a class="information-block__main__item__href" href="https://rolling-scopes-school.github.io/annepihova-JSFEPRESCHOOL2022Q4/">momentum</a></li>
+          <li class="information-block__main__item"><a class="information-block__main__item__href" href="https://annepihova.github.io/virtual-keyboard/">virtual keyboard</a></li>
+          <li class="information-block__main__item"><a class="information-block__main__item__href" href="https://annepihova.github.io/cssBayan/cssBayan/index.html">css bayan</a></li>
+          <li class="information-block__main__item"><a class="information-block__main__item__href" href="https://rolling-scopes-school.github.io/annepihova-JSFE2023Q1/self-introduction/">self introduction</a></li>
+          <li class="information-block__main__item"><a class="information-block__main__item__href" href="https://rolling-scopes-school.github.io/annepihova-JSFE2023Q1/minesweeper/">minesweeper</a></li>
+          <li class="information-block__main__item"><a class="information-block__main__item__href" href="https://rolling-scopes-school.github.io/annepihova-JSFE2023Q1/shelter/pages/main/index.html">shelter</a></li>
+        </ul>
+      </div>
+      <div class="information-block">
+        <h4 class="information-block__name">Education</h4>
+        <ul class="information-block__main">
+          <li class="information-block__main__item">Secondary school
+            <p class="level">2015-2026</p></li>
+          <li class="information-block__main__item">JS/FE Pre-School
+            <p class="level">2022Q4</p></li>
+          <li class="information-block__main__item">JavaScript/Front-end
+            <p class="level">2023Q1(in progress)</p></li>
+        </ul>
+      </div>
+      <div class="information-block">
+        <h4 class="information-block__name">Languages</h4>
+        <ul class="information-block__main">
+          <li class="information-block__main__item">Russian
+            <p class="level">Native</p>
+          </li>
+          <li class="information-block__main__item">Belarussian
+            <p class="level">Native</p>
+          </li>
+          <li class="information-block__main__item">English
+            <p class="level">Pre-Intermediate</p>
+          </li>
+          <li class="information-block__main__item">Ukrainian
+            <p class="level">Intermediate</p>
+          </li>
+        </ul>
+      </div>
+      <div class="information-block">
+        <h4 class="information-block__name">Skills</h4>
+        <ul class="information-block__main">
+          <li class="information-block__main__item">Figma</li>
+          <li class="information-block__main__item">Git, GitHub</li>
+          <li class="information-block__main__item">HTML5</li>
+          <li class="information-block__main__item">CSS3, SCSS, BEM</li>
+          <li class="information-block__main__item">JavaScript</li>
+          <li class="information-block__main__item">Node.js</li>
+        </ul>
+      </div>
+    </section>
       </main>
       <footer class="footer">
         <a
           class="footer__item git-hub__item"
-          href="https://github.com/annepihova"
-        >
+          href="https://github.com/annepihova">
           <img
             src="./assets/images/github-logo.svg"
             alt="gh-logo"
-            class="gh-logo"
-          />
+            class="gh-logo">
           <p class="ght">GitHub</p>
         </a>
         <p class="footer__item year__item">© 2023</p>
@@ -81,8 +156,7 @@
             alt="rss-logo"
             height="32"
             width="86"
-            class="rsss"
-          />
+            class="rsss">
         </a>
       </footer>
     </div>
