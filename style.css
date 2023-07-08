@@ -43,8 +43,8 @@ footer{
 
 .main__img{
   height: 600px;
-  width: 400px;
-  filter: grayscale(0.6);
+  width: 428px;
+  filter: grayscale(0.85);
 }
 
 .main__information{
@@ -81,7 +81,7 @@ margin-bottom: 50px;
 .grey{
   background-color: rgba(108, 107, 107, 0.297);
   position: absolute;
-  width: 930px;
+  width: 960px;
   height: 310px;
   top: 250px;
 }
@@ -94,7 +94,7 @@ margin-bottom: 50px;
 
   position: relative;
   top: 265px;
-  left: 716px;
+  left: 747px;
 }
 
 .sqare{
@@ -105,5 +105,5 @@ margin-bottom: 50px;
 
   position: relative;
   top: 280px;
-  left: 904px;
+  left: 936px;
 }
