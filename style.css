@@ -238,3 +238,21 @@ ul{
   display: flex;
   gap: 5px;
 }
+
+
+@media screen and (max-width: 1024px){
+  .grey,
+  .line,
+  .sqare{
+    display: none;
+  }
+
+  .main__profession{
+    color: rgb(19, 19, 19);
+  }
+
+  .container {
+    margin: 0 auto;
+    box-shadow: none;
+  }
+}
